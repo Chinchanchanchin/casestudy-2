@@ -11,78 +11,81 @@ header footer {
                        /* header */
 
 
-                       .navbar--brand--img {
-                        width: 120px;
-                        height: 80px;
-                        margin-left: 5vmin;
-                    }
-                    
-                    .form__flex {
-                        width: 350px;
-                    }
-                    .input-group {
-                        margin-left: 5vmin;
-                    }
-                    
-                    .input-group button img {
-                        width: 20px;
-                        height: 15px;
-                    }
-                    .dropdown {
-                        position: relative;
-                        display: inline-block;
-                        padding-right: 2em;
-                        font-size: 18px;
-                        
-                    }
-                    .dropdown-content {
-                        display: none;
-                        position: absolute;
-                        z-index: 1;
-                        list-style-type: none;
-                        
-                    }
-                    
-                    .nav-link {
-                        color: black;
-                    }
-                    
-                    .nav-link1 {
-                        color: white;
-                        font-size: 22px;
-                    }
-                    .dropdown:hover {
-                        border-bottom: grey solid 1px;
-                    }
-                    .dropdown:hover .dropdown-content {
-                        display: inline-flex;
-                        margin-left: -70px;
-                    }
-                    .dropdown a {
-                       color: black;
-                    }
-                    .dropdown a:hover {
-                        color: gray;
-                    }
-                    
-                    
-                    .hr-1 {
-                        height: 5px;
-                        border: none;
-                        border-bottom: 2px solid black;
-                        margin-top: 3em;
-                    }
-                    .header-re-1 {
-                        display: block;
-                        text-align: center;
-                        padding-top: 1em;
-                    }
+     .navbar--brand--img {
+        width: 120px;
+        height: 80px;
+        margin-left: 5vmin;
+    }
+    
+    .form__flex {
+        width: 350px;
+    }
+    .input-group {
+        margin-left: 5vmin;
+    }
+    
+    .input-group button img {
+        width: 20px;
+        height: 15px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        padding-right: 2em;
+        font-size: 18px;
+        
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        list-style-type: none;
+        
+    }
+    
+    .nav-link {
+        color: black;
+    }
+    
+    .nav-link1 {
+        color: white;
+        font-size: 22px;
+    }
+    .dropdown:hover {
+        border-bottom: grey solid 1px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: inline-flex;
+        margin-left: -75px;
+    }
+    .dropdown a {
+    color: black;
+    }
+    .dropdown a:hover {
+        color: gray;
+    }
+    
+    
+    .hr-1 {
+        height: 5px;
+        border: none;
+        border-bottom: 2px solid black;
+        margin-top: 3em;
+    }
+    .header-re-1 {
+        display: block;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+
+
                 /* main */
 
 
 .carousel-slider {
-    margin: 5vmin 20vmin 5vmin 20vmin;
-}
+    padding: 5vmin 30vmin 5vmin 20vmin ;
+} 
 
 .carousel-item {
     height: 700px;
@@ -92,8 +95,8 @@ header footer {
 .iframe-video {
     text-align: center;
     padding-top: 3em;
+    padding-left: 4em;
     box-sizing: border-box;
-    
     border-radius: 10px;
     margin-bottom: 15px;
     cursor: pointer;
@@ -101,7 +104,6 @@ header footer {
     box-shadow: 0px 8px 20px #d8d8d6 
 }
 header hr {
-    
     margin: 10px 100px 10px 100px;
 
 }
@@ -115,7 +117,10 @@ header hr {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+.baiviet--text {
+    display: block;
+    text-align: center;
+}
 .baiviet--text img {
     width: 150px;
     height: 150px;
@@ -239,7 +244,7 @@ header hr {
     color: white;
 }
 .datbao-img {
-    margin: 5em 1em 5em 5em;
+    padding: 5em 1em 5em 5em;
 }
 .datbao-img img {
     width: 400px;
@@ -384,7 +389,11 @@ footer .footer-second a {
   .baiviet-re {
       display: flex;
       flex-wrap: wrap;
+      padding-left: 0;
   }
+  .carousel-slider {
+    padding: 0;
+} 
   .ysl {
       margin-left: -80px;
       width: 220px;
@@ -413,36 +422,52 @@ footer .footer-second a {
 }
 @media only screen and (max-width:768px){
    
-    .baiviet-re {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  
+    .carousel {
+        margin: 30px;
+    } 
     
     .iframe-video {
-        height: 300px;
+        height: 230px;
+        margin: 2em;
     }
-    .ysl {
-        margin-left: -100px;
-        width: 350px;
+    iframe {
+        width: 150px;
+        height: 100px;
     }
     .ysl-h3 {
         font-size: 15px;
     }
-    .ysl-text {
-        margin-left: -30px;
-    }
+   
     .gallery-img1 {
         margin-left: -100px;
         width: 400px;
         
     }
     .gallery-text {
-        margin-left: -60px;
+       
     }
-    .datbao-text-a {
-        margin-bottom: 10px;
-    }
+   .datbao-img {
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+   } 
     .news-img-1 {
         margin-left: 0px;
     }
-  }
+    .carousel-slider {
+        padding: 0;
+    } 
+   .row {
+       flex-direction: column;
+   }
+   .dropdown:hover .dropdown-content {
+       display: block;
+       text-align: center;
+       margin-left: -50px;
+   }
+   .dropdown:hover .nav-link1 {
+       margin-top: -9em;
+       
+   }
+  } 
