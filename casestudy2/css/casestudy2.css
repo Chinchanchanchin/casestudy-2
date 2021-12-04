@@ -11,62 +11,72 @@ header footer {
                        /* header */
 
 
-.navbar--brand--img {
-    width: 120px;
-    height: 80px;
-    margin-left: 5vmin;
-}
-
-.form__flex {
-    width: 350px;
-}
-.input-group {
-    margin-left: 5vmin;
-}
-
-.input-group button img {
-    width: 20px;
-    height: 15px;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-    padding-right: 2em;
-    font-size: 18px;
-    
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    list-style-type: none;
-    
-} 
-
-.nav-link {
-    color: black;
-}
-
-.nav-link1 {
-    color: white;
-    font-size: 22px;
-}
-.dropdown:hover {
-    border-bottom: grey solid 1px;
-}
-.dropdown:hover .dropdown-content {
-    
-    display: inline-flex; 
-}
-.dropdown-item {
-    color: gray;
-}
-.hr-1 {
-    height: 5px;
-    border: none;
-    border-bottom: 2px solid black;
-}
-
+                       .navbar--brand--img {
+                        width: 120px;
+                        height: 80px;
+                        margin-left: 5vmin;
+                    }
+                    
+                    .form__flex {
+                        width: 350px;
+                    }
+                    .input-group {
+                        margin-left: 5vmin;
+                    }
+                    
+                    .input-group button img {
+                        width: 20px;
+                        height: 15px;
+                    }
+                    .dropdown {
+                        position: relative;
+                        display: inline-block;
+                        padding-right: 2em;
+                        font-size: 18px;
+                        
+                    }
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        z-index: 1;
+                        list-style-type: none;
+                        
+                    }
+                    
+                    .nav-link {
+                        color: black;
+                    }
+                    
+                    .nav-link1 {
+                        color: white;
+                        font-size: 22px;
+                    }
+                    .dropdown:hover {
+                        border-bottom: grey solid 1px;
+                    }
+                    .dropdown:hover .dropdown-content {
+                        display: inline-flex;
+                        margin-left: -70px;
+                    }
+                    .dropdown a {
+                       color: black;
+                    }
+                    .dropdown a:hover {
+                        color: gray;
+                    }
+                    
+                    
+                    .hr-1 {
+                        height: 5px;
+                        border: none;
+                        border-bottom: 2px solid black;
+                        margin-top: 3em;
+                    }
+                    .header-re-1 {
+                        display: block;
+                        text-align: center;
+                        padding-top: 1em;
+                    }
                 /* main */
 
 
