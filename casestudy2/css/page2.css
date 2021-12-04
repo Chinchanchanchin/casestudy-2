@@ -34,12 +34,13 @@ main {
 }
 
 .col-md-4 {
-    padding: 1em 0 1em 1em ;
+    padding: 1em 0 1em 2em ;
+    font-size: 15px;
 }
 .col-md-4 h3 {
     padding: 2em 0 0 2em;
 }
-.col-md-4 h5 {
+.col-md-4 h6 {
     padding: 1em 0em 1em 2em;
 } 
 .col-md-4 p {
