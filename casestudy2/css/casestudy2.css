@@ -414,14 +414,19 @@ footer .footer-second a {
   }
   .datbao-text-a {
     margin-bottom: 10px;
-}
+ }
   .news-img-1 {
       margin-left: 0px;
   }
   
 }
 @media only screen and (max-width:768px){
-   
+    .baiviet-re {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
   
     .carousel {
         margin: 30px;
@@ -444,9 +449,7 @@ footer .footer-second a {
         width: 400px;
         
     }
-    .gallery-text {
-       
-    }
+   
    .datbao-img {
        display: flex;
        flex-wrap: wrap;
@@ -469,5 +472,8 @@ footer .footer-second a {
    .dropdown:hover .nav-link1 {
        margin-top: -9em;
        
+   }
+   .datbao-text-a {
+    margin-bottom: 10px;
    }
   } 
